@@ -4,6 +4,6 @@ func SayHello() string {
 	return "Hello"
 }
 
-func SayHelloTo(name string) string {
-	return "Hello, " + name
+func SayHelloTo(fromName string, toName string) string {
+	return "Hello," + toName + " my name is " + fromName
 }
